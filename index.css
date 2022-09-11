@@ -1,20 +1,100 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose'); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap');
+/* @import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE); */
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable declaration-block-no-duplicate-properties */
+/* stylelint-disable csstree/validator */
 html {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 * {
-  font-size: 16px;
-  font-family: lato, sans-serif;
+  font-family:  'COCOGOOSE', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+   text-decoration: none;
 }
 
 body {
+  width: 100%;
+  height: auto;
   color: black;
-  padding: 0 0;
-  margin: 0;
 }
+
+.nav-bar1,
+.logo {
+  display: none;
+}
+
+.nav-bar {
+  height: 5em;
+  margin-top: -5em;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content:flex-end;
+  align-items: center;
+  padding: 0 10em;
+  background: #fff;
+  background-color: #aaa;
+ }
+
+.labelT a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ec5242;
+  border: #ec5242 solid 3px;
+  width: 10em;
+  padding-right: 0 ;
+}
+
+ .list-menu {
+  position: absolute;
+  top: 0%;
+  display: none;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 100vh;
+  justify-content:flex-start;
+  align-items: center;
+  gap: 0;
+  list-style: none;
+  border:  red solid 3px;
+  }
+ 
+ .nav-link {
+  transition: 0.7s ease;
+  padding-right: 20px;
+  font-family:  'lato', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #5e5a5a;
+}
+
+.nav-link:hover {
+  color: #ec5242;
+}
+
+.hamburger {
+  top: 5%;
+  left: 5%;
+  position: absolute;
+  display: flex;
+  flex-flow: column wrap;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 50px;
+  height: 7.5px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #5e5a5a;
+  margin-left: 1em;
+}
+
 
 .hello {
   padding-top: 4em;
@@ -33,7 +113,7 @@ body {
   padding-left: 2em;
   padding-bottom: 0.5em;
   width: 85%;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+ font-family: 'COCOGOOSE', sans-serif;                                             
   font-size: 3.5rem;
   font-weight: 500;
   word-spacing: 0;
@@ -84,121 +164,6 @@ body {
 }
 
 
-
-
-header {
-  background-color: transparent;
-}
-
-.nav-menu li {
-  list-style: none;
-  margin-bottom: -2em;
-}
-
-a {
-  text-decoration: none;
-}
-
-.nav-bar1 a {
-  padding-right: 20px;
-  text-decoration: none;
-  color: #f4f4f4;
-}
-
-.nav-bar1 {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 100%;
-  height: 2em;
-  background-color: #272a31;
-  padding: 0 6em;
-  }
-
-.nav-bar {
-  height: 5em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 6em;
-  background: #fff;
-  }
-
-.labelT a {
-  font-size: 1rem;
-  font-weight: 800;
-  color: #ec5242;
-  border: #ec5242 solid 3px;
-  width: 10em;
-  padding-right: 0 ;
-}
-
-.logo {
-    width: 40%;
-  height: 100%;
-  display: inline;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-  }
-
-.logo img {
-  float: left;
-  height: auto;
-  width: 30%;
-  border-radius: 50%;
-}
-
-.logo h3 {
-  float: left;
-  width: 70%;
-  font-size: 1rem;
-  font-weight: 600;
-  background: url(images/backgrd2.jpg) 0 0 / cover no-repeat;
-  color: #de466c;
-  background-clip: text;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.nav-menu {
-  display: flex;
-  box-sizing: border-box;
-  width: 90%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  gap: 0;
- }
-
-.nav-link {
-  transition: 0.7s ease;
-  padding-right: 3px;
-  color: #272a31;
-  text-decoration: none;
-}
-
-.nav-link:hover {
-  color: #ec5242;
-}
-
-.hamburger {
-  display: none;
-  cursor: pointer;
-}
-
-.bar {
-  display: block;
-  width: 40px;
-  height: 7.5px;
-  margin: 6px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #5e5a5a;
-  margin-left: 1em;
-}
-
 .main-header {
   display: flex;
   flex-flow: column;
@@ -230,4 +195,94 @@ a {
   font-size: 1rem;
   font-weight: 500;
   border-bottom: #fff solid 1px;
+}
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .nav-bar {
+  height: 5em;
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  padding: 0 10%;
+  background: #fff;
+  border:  red solid 3px;
+ }
+
+.nav-bar1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 2em;
+  background-color: #41403c;
+  padding: 0 12em;
+  }
+
+   .nav-bar1 a {
+  padding-right: 20px;
+  font-family: lato;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+ }
+
+ .logo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  border:  red solid 3px;
+  }
+
+.logo img {
+  float: left;
+  height: auto;
+  width: 20%;
+  border-radius: 50%;
+  
+}
+
+.logo h3 {
+  float: left;
+  margin-top: 3%;
+  width: 75%;
+  font-family:  'lato', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background: url(images/backgrd2.jpg) 0 0 / cover no-repeat;
+  color: #de466c;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ .list-menu {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:flex-end;
+  align-items: center;
+  gap: 0;
+  list-style: none;
+  border:  red solid 3px;
+  background-color: #fff
+ }
+
+ .nav-link {
+  transition: 0.7s ease;
+  padding-right: 20px;
+  font-family:  'lato', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #5e5a5a;
+}
+
 }
