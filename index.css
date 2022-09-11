@@ -97,27 +97,23 @@ body {
 
 
 .hello {
-  padding-top: 4em;
+  padding-top: 40%;
   padding-bottom: 10px;
-  margin-left: -8em;
-  font-size: 2rem;
-  background: url(images/backgrd2.jpg) 0 0 / cover no-repeat;
-  color: #de466c;
-  background-clip: text;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  margin-left: 0;
+  font-family: lato, sans-serif;
+  color: orangered;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .header-text {
-  padding-left: 2em;
+  padding-left: 1rem;
   padding-bottom: 0.5em;
-  width: 85%;
- font-family: 'COCOGOOSE', sans-serif;                                             
-  font-size: 3.5rem;
-  font-weight: 500;
-  word-spacing: 0;
-  line-height: 65px;
+  width: 95%;
+ font-family: lato, sans-serif;                                             
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 45px;
   background: url(images/backgrd.jpg) 0 0 / cover no-repeat;
   color: #de466c;
   background-clip: text;
@@ -132,35 +128,37 @@ body {
 }
 
 .desc {
-  width: 34%;
+  width: 95%;
   color: #828484;
+  font-family: late, sans-serif;
   font-size: 1rem;
-  font-weight: 550;
+  font-weight: 50;
   line-height: 1.5em;
   background-color: #faf8f8;
   border: #fff solid 5px;
   margin: auto;
-  margin-left: 13em;
   text-align: justify;
 }
 
 .desc2 {
-  width: 40%;
+  width: 95%;
   color: #868484;
-  font-size: 1rem;
+  font-family: late, sans-serif;
+  font-size: 1.1rem;
   font-weight: 550;
-  line-height: 1.5em;
+  line-height: 1.5rem;
   margin: auto;
-  margin-left: 13em;
+  margin-left: 1rem;
   margin-bottom: 8em;
 }
 
 .date {
   color: #646363;
+  font-family: late, sans-serif;
   font-size: 1.7rem;
   font-weight: 800;
   padding-top: 2em;
-  margin-left: -15em;
+  
 }
 
 
@@ -169,15 +167,12 @@ body {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  padding-top: 0;
-  margin-top: 0;
-  padding-bottom: 3em;
   width: 100%;
-  height: auto;
+  height: 100vh;
   background: url("images/back.png");
-  background-size: cover;
+  /* background-clip: content-box; */
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: inherit;
 }
 
 .advert1 {
@@ -196,6 +191,277 @@ body {
   font-weight: 500;
   border-bottom: #fff solid 1px;
 }
+
+.program-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 0.5em;
+  padding: 2em 0;
+  margin-top: 0;
+  width: 100%;
+  height: auto;
+  background: url("images/back2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border:  white 3px solid;
+}
+
+.main-program {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 1em;
+  padding-top: 0;
+  margin-top: 0;
+  width: 100%;
+  height: auto;
+  border:  white 3px solid;
+}
+
+.title-wrap {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 2em;
+}
+
+.pro-header {
+  width: 95%;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #faf8f8;
+  padding-top: 1em;
+  padding-bottom: 1rem;
+}
+
+hr {
+  width: 2em;
+  border: #ec5242 solid 5px;
+}
+
+.hrp {
+  width: 30px;
+  border: #5c5757 solid 1px;
+  margin-top: -0.5em;
+}
+
+.program-card {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 10rem;
+  background-color: rgba(211, 211, 211, 0.1);
+  gap: 0.5em;
+  padding: 1em 1em;
+}
+
+.pro-icon {
+  width: 20%;
+  padding: 0 0;
+  border-radius: 45%;
+}
+
+.program {
+  width: fit-content;
+  height: 2em;
+  color: #ec5242;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0 0;
+  text-align: center;
+}
+
+.program-card:hover {
+  border: #fff solid 3px;
+}
+
+.pro-desc {
+  width: 85%;
+  color: #f7ecec;
+  font-size: 1rem;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.speaker-header {
+  width: 95%;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 550;
+  color: #111;
+  padding-top: 3em;
+  padding-bottom: 0.5em;
+}
+
+.speaker-head {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.speakers {
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2em;
+  width: 72%;
+  height: auto;
+  padding: 2em;
+  padding-top: 4em;
+  background-color: #fff;
+}
+
+.speeker-card {
+  display: flex;
+  gap: 0.5em;
+  width: 48%;
+  height: auto;
+}
+
+.spk-img {
+  width: 25%;
+  box-shadow: -20px -20px grey;
+}
+
+.infor {
+  display: flex;
+  flex-flow: column;
+  width: 70%;
+}
+
+.namez {
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+.card-co {
+  width: 100%;
+  color: rgb(243, 2, 62);
+  font-style: italic;
+}
+
+.card-description {
+  width: 100%;
+}
+
+.buttonM {
+  display: block;
+}
+
+.buttonM p {
+  display: none;
+}
+
+.buttonL {
+  display: none;
+}
+
+.buttonL p {
+  display: none;
+}
+
+.partners-sect {
+  width: 100%;
+  margin-top: 2em;
+  padding: 1em 10em;
+  background-color: #272a31;
+}
+
+.partners img {
+  max-width: 20%;
+}
+
+.partner-header {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  padding: 1em 2em;
+  align-items: center;
+}
+
+.partner-header p {
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  display: flex;
+  color: #fff;
+}
+
+.partners {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-flow: row;
+  gap: 1em;
+  padding: 2em;
+  padding-left: 15em;
+}
+
+.footer-head {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.footer-head a {
+  text-decoration: none;
+}
+
+.footer-head h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  background: url(images/backgrd.jpg) 0 0 / cover no-repeat;
+  color: #de466c;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-head img {
+  width: 10em;
+}
+
+.footer-content {
+  width: 100%;
+  height: auto;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+.footer-content h3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: url(images/backgrd.jpg) 0 0 / cover no-repeat;
+  color: #de466c;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 @media (min-width: 768px) {
   .hamburger {
     display: none;
