@@ -36,16 +36,15 @@ body {
   align-items: center;
   padding: 0 10em;
   background: #fff;
-  background-color: #aaa;
  }
 
 .labelT a {
   font-size: 1rem;
   font-weight: 500;
   color: #ec5242;
-  border: #ec5242 solid 3px;
   width: 10em;
   padding-right: 0 ;
+  border: #ec5242 solid 3px;
 }
 
  .list-menu {
@@ -59,8 +58,9 @@ body {
   align-items: center;
   gap: 0;
   list-style: none;
-  border:  red solid 3px;
-  }
+background-color: #fff;
+padding-top: 8rem;
+}
  
  .nav-link {
   transition: 0.7s ease;
@@ -93,7 +93,23 @@ body {
   transition: all 0.3s ease-in-out;
   background-color: #5e5a5a;
   margin-left: 1em;
-}
+ }
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(17px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-17px) rotate(-45deg);
+  }
+
+  .list-menu.active {
+    display: flex;
+  }
 
 
 .hello {
@@ -588,9 +604,8 @@ footer {
   align-items: center;
   gap: 0;
   list-style: none;
-  border:  red solid 3px;
-  background-color: #fff
- }
+  padding-top: 0;
+}
 
  .nav-link {
   transition: 0.7s ease;
@@ -658,7 +673,7 @@ footer {
 }
 
 .desc2 {
-  width: 95%;
+  width: 60%;
   color: #868484;
   font-family: late, sans-serif;
   font-size: 1.1rem;
@@ -903,7 +918,6 @@ hr {
   width: 100%;
   padding: 1em 2em;
   align-items: center;
-  font-weight: 200;
 }
 
 .partner-header p {

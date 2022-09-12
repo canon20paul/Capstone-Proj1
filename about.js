@@ -5,6 +5,7 @@ hamburger.addEventListener('click', () => {
     document.body.style.overflow = 'auto';
     hamburger.classList.remove('active');
     navmenu.classList.remove('active');
+    /* eslint eqeqeq: "off", curly: "error" */
   } else {
     hamburger.classList.toggle('active');
     navmenu.classList.toggle('active');
