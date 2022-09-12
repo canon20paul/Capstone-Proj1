@@ -37,7 +37,6 @@ body {
   font-size: 1rem;
   font-weight: 500;
   color: #ec5242;
-  border: #ec5242 solid 3px;
   width: 10em;
   padding-right: 0 ;
 }
@@ -53,8 +52,7 @@ body {
   align-items: center;
   gap: 0;
   list-style: none;
-  border:  red solid 3px;
-  }
+}
  
  .nav-link {
   transition: 0.7s ease;
@@ -146,7 +144,6 @@ body {
   display: flex;
   padding: 0 10%;
   background: #fff;
-  border:  red solid 3px;
  }
 
 .nav-bar1 {
@@ -174,8 +171,7 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: flex-end;
-  border:  red solid 3px;
-  }
+ }
 
 .logo img {
   float: left;
@@ -210,7 +206,6 @@ body {
   align-items: center;
   gap: 0;
   list-style: none;
-  border:  red solid 3px;
   background-color: #fff
  }
 
