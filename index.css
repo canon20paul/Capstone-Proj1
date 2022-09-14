@@ -1,3 +1,7 @@
+/* stylelint-disable indentation */
+/* stylelint-disable value-list-comma-newline-after */
+/* stylelint-disable declaration-block-no-duplicate-properties */
+/* stylelint-disable csstree/validator */
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap");
 
@@ -393,8 +397,8 @@ hr {
   width: 100%;
   color: rgb(243, 2, 62);
   font-style: italic;
-  font-family: lato, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif;
+  font-family: lato, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", 
+  sans-serif;
   font-weight: 500;
   font-size: 1rem;
   opacity: 0.5;
@@ -479,7 +483,6 @@ hr {
 .partner-header p {
   font-size: 30px;
   font-weight: 500;
-  display: flex;
   display: flex;
   color: #fff;
 }
@@ -702,7 +705,6 @@ footer {
     line-height: 1.5rem;
     margin: auto;
     margin-left: 18%;
-    /* margin-bottom: 8em; */
   }
 
   .date {
@@ -776,8 +778,7 @@ footer {
   .pro-header {
     width: 95%;
     text-align: center;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 2rem;
     font-weight: 500;
     color: #faf8f8;
@@ -839,8 +840,7 @@ footer {
   .speaker-header {
     width: 95%;
     text-align: center;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 1.5rem;
     font-weight: 550;
     color: #111;

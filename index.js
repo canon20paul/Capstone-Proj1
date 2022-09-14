@@ -17,7 +17,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   navmenu.classList.remove('active');
 }));
 document.getElementsByClassName('buttonL').addEventListener('click', () => {
-  document.getElementsByClassName('bottonL').classList.toggle('hide')
+  document.getElementsByClassName('bottonL').classList.toggle('hide');
   document.getElementsByClassName('buttonM').classList.toggle('hide');
 });
 document.getElementsByClassName('buttonM').addEventListener('click', () => {
