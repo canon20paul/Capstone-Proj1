@@ -67,6 +67,7 @@ body {
   border-radius: 50%;
   width: 20%;
   top: 0;
+  left: 80%;
 }
 
 .crane2 {
@@ -74,6 +75,7 @@ body {
   border-radius: 50%;
   width: 50%;
   top: 80%;
+  left: 0;
 }
 
 .nav-link {
@@ -170,6 +172,11 @@ body {
 .mainS {
   width: 100%;
   height: auto;
+}
+
+hr {
+  width: 3rem;
+  border: #ec5242 solid 2px;
 }
 
 .desc {
@@ -283,7 +290,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 3em;
-  background-color: #d5d5d5;
+  background-color: #fff;
   padding-bottom: 3rem;
 }
 
@@ -685,12 +692,14 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 3em;
-    background-color: #d5d5d5;
+    background-color: #fff;
     padding-bottom: 3rem;
+    padding-top: 3rem;
   }
 
   .past-header {
-    margin-bottom: -1.8em;
+    margin-bottom: -1.8rem;
+    font-size: 1.5rem;
   }
 
   .past .desc {
