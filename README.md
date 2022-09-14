@@ -9,14 +9,20 @@
 - HTML
 - CSS
 - Javascript
+- Git & Github
 
 ## Live Demo
 
-[Live Demo]( https://canon20paul.github.io/Capstone-Project-1-Confrence/)
+[Live Demo]( https://canon20paul.github.io/Capstone-Proj1/)
 
 ## Video Demo
 
-[Video Demo](https://www.loom.com/share/a0d49d376e1f4cfcb65b621e243f0319)
+[Video Demo](https://www.loom.com/share/266bc24ed49742a483c0afc2a581f5a8)
+
+## Snapshots
+
+![alt text](images/paul2.png "Title")
+
 
 ## Authors
 
