@@ -12,8 +12,15 @@ hamburger.addEventListener('click', () => {
   }
 });
 // Hide navMenu
-/* eslint eqeqeq: "off", curly: "error" */
 document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.remove('active');
   navmenu.classList.remove('active');
 }));
+document.getElementsByClassName('buttonL').addEventListener('click', () => {
+  document.getElementsByClassName('bottonL').classList.toggle('hide')
+  document.getElementsByClassName('buttonM').classList.toggle('hide');
+});
+document.getElementsByClassName('buttonM').addEventListener('click', () => {
+  document.getElementsByClassName('buttonL').classList.toggle('hide');
+  document.getElementsByClassName('buttonM').classList.toggle('hide');
+});

@@ -99,6 +99,7 @@ const speekerz = [
       "Lorem Ipsum is simply dummy company of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
   },
 ];
+
 let workCard = '';
 let workCard1 = '';
 const appendWorks = (speekerz, startt) => {
