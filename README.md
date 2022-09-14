@@ -16,7 +16,7 @@
 
 ## Video Demo
 
-[Video Demo](https://www.loom.com/share/a0d49d376e1f4cfcb65b621e243f0319))
+[Video Demo](https://www.loom.com/share/a0d49d376e1f4cfcb65b621e243f0319)
 
 ## Authors
 
